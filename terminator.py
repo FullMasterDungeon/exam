@@ -1,6 +1,6 @@
 import telebot
 count = 0
-fist = ['e', 'y', 'u', 'i', 'o', 'a']
+fist = {'e' : 0, 'y' : 0, 'u' : 0, 'i' : 0, 'o' : 0, 'a' : 0}
 
 bot = telebot.TeleBot('1751556596:AAGYxFmWp89tI6YETxtr8DDTd9LvXUd6DOw')
 @bot.message_handler(content_types=['text'])

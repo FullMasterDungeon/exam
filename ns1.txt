@@ -1,0 +1,10 @@
+1. str
+2. bool
+3. dict
+4. set
+5. dict
+6. NoneType
+7. с 1 по 5 str, с 5 по 10 int
+8. в зависимости от введенного
+9. list
+10.str

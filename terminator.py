@@ -2,7 +2,7 @@ import telebot
 count = 0
 fist = {'e' : 0, 'y' : 0, 'u' : 0, 'i' : 0, 'o' : 0, 'a' : 0}
 
-bot = telebot.TeleBot('1751556596:AAGYxFmWp89tI6YETxtr8DDTd9LvXUd6DOw')
+bot = telebot.TeleBot('')
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
     atext = message.text.lower()
